@@ -31,7 +31,7 @@ namespace Domain.Interfaces
         IFormula Formula { get; }
         IRegistroFormula RegistroFormula { get; }
         IRol Rol { get; }
-        IUser User { get; }
+        //IUser User { get; }
         Task<int> SaveAsync();
     }
 }
